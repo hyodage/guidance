@@ -1,0 +1,30 @@
+一般元素的默认样式,默认内外边距都是0*/
+h1,h2,h3,h4,h5,h6 {font-weight: 400;}
+blockquote,body,button,dd,div,dl,dt,form,h1,h2,h3,h4,h5,h6,input,li,ol,p,pre,td,textarea,th,ul {
+margin:0;padding:0;-webkit-tap-highlight-color: rgba(0, 0, 0, 0);}
+/* a标签的样式,去掉下划线,变灰色,且鼠标移至上面颜色变更灰 */
+a:active,a:hover {color:#888;}
+a{color: #333;text-decoration:none;font-style:normal;}
+/* table的默认样式,在使用时参照 */
+/* table td{padding:10px;border: 1px solid #0000FF;} */
+table {border-collapse:collapse;border-spacing:0;}
+/* 以下标签的字体继承父级:可无 */
+button,input,optgroup,option,select,textarea {
+font-family: inherit;font-size: inherit;font-style: inherit;font-weight: inherit;outline:0;}
+/* 图片默认无边框,列表无样式:这两可无 */
+img{border:none;}li {list-style: none;}
+/* pre默认样式:可无 */
+pre {white-space: pre-wrap;white-space: -moz-pre-wrap;white-space:-pre-wrap;white-space:-o-pre-wrap;word-wrap: break-word}
+/* hr的默认样式,用法:color: #0000FF; height表示保留的空心有多高*/
+hr{/* height: 1px; */margin: 10px 0;clear:both;}
+
+.opa:hover{opacity: 0.6;}
+.poi{cursor:pointer}
+.bs{box-sizing: border-box;}
+.pa-10{padding: 10px;}
+.pa-10-x{padding:0 10px;}
+.ma-10-x{margin:0 10px;}
+/* 颜色 */
+.cl-blue{color:#1890ff;}
+.cl-red{color: red;}
+.f-12{font-size: 12px;}
